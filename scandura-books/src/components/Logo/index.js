@@ -4,7 +4,10 @@ import './index.css';
 function Logo(){
     return (
         <div className="logo">
-          <img src={logo} alt="Scandura Books" />
+          <img 
+            src={logo} 
+            alt="Scandura Books" 
+          />
           <p> <strong>Scandura</strong> Books</p>
         </div>
     )
